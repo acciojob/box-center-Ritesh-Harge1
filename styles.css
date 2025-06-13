@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+/* Ensure the page fills the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the box on the page */
+.center-box {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  border: 2px solid black;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Center the text inside the box */
+.center-text {
+  color: purple;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
